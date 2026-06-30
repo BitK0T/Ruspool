@@ -1,0 +1,45 @@
+# Секреты и пароли
+.env
+*.env
+*.backup
+*.secret
+
+# Данные блокчейна (огромные папки)
+ckpool/data/
+ckpool/data/*
+!ckpool/data/.gitkeep
+
+# Данные PostgreSQL
+db/data/
+db/data/*
+db/data_shadow/
+db/data_shadow/*
+
+# Временные файлы
+*.log
+*.pid
+*.tmp
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.iml
+
+# Сборки и зависимости
+node_modules/
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Старые бэкапы
+*.bak
+*.old
+*.orig
